@@ -15,6 +15,11 @@
 		FEB7D8822512B53D00AD2CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB7D8802512B53D00AD2CD6 /* LaunchScreen.storyboard */; };
 		FEB7D88D2512B53E00AD2CD6 /* XylophonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB7D88C2512B53E00AD2CD6 /* XylophonTests.swift */; };
 		FEB7D8982512B53E00AD2CD6 /* XylophonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB7D8972512B53E00AD2CD6 /* XylophonUITests.swift */; };
+		FEB7D8A825135A0700AD2CD6 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEB7D8A525135A0700AD2CD6 /* E.wav */; };
+		FEB7D8A925135A0700AD2CD6 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEB7D8A625135A0700AD2CD6 /* A.wav */; };
+		FEB7D8AA25135A0700AD2CD6 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEB7D8A725135A0700AD2CD6 /* B.wav */; };
+		FEB7D8AC25135A1500AD2CD6 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEB7D8AB25135A1500AD2CD6 /* D.wav */; };
+		FEB7D8AE25135A2100AD2CD6 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEB7D8AD25135A2100AD2CD6 /* C.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		FEB7D8932512B53E00AD2CD6 /* XylophonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylophonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB7D8972512B53E00AD2CD6 /* XylophonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophonUITests.swift; sourceTree = "<group>"; };
 		FEB7D8992512B53E00AD2CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB7D8A525135A0700AD2CD6 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		FEB7D8A625135A0700AD2CD6 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		FEB7D8A725135A0700AD2CD6 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		FEB7D8AB25135A1500AD2CD6 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		FEB7D8AD25135A2100AD2CD6 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,7 @@
 				FEB7D87E2512B53D00AD2CD6 /* Assets.xcassets */,
 				FEB7D8802512B53D00AD2CD6 /* LaunchScreen.storyboard */,
 				FEB7D8832512B53D00AD2CD6 /* Info.plist */,
+				FEB7D8AF25135AAE00AD2CD6 /* sounds */,
 			);
 			path = Xylophon;
 			sourceTree = "<group>";
@@ -126,6 +137,18 @@
 				FEB7D8992512B53E00AD2CD6 /* Info.plist */,
 			);
 			path = XylophonUITests;
+			sourceTree = "<group>";
+		};
+		FEB7D8AF25135AAE00AD2CD6 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7D8A625135A0700AD2CD6 /* A.wav */,
+				FEB7D8A725135A0700AD2CD6 /* B.wav */,
+				FEB7D8AD25135A2100AD2CD6 /* C.wav */,
+				FEB7D8AB25135A1500AD2CD6 /* D.wav */,
+				FEB7D8A525135A0700AD2CD6 /* E.wav */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +257,11 @@
 			files = (
 				FEB7D8822512B53D00AD2CD6 /* LaunchScreen.storyboard in Resources */,
 				FEB7D87F2512B53D00AD2CD6 /* Assets.xcassets in Resources */,
+				FEB7D8AC25135A1500AD2CD6 /* D.wav in Resources */,
+				FEB7D8A825135A0700AD2CD6 /* E.wav in Resources */,
+				FEB7D8AE25135A2100AD2CD6 /* C.wav in Resources */,
+				FEB7D8AA25135A0700AD2CD6 /* B.wav in Resources */,
+				FEB7D8A925135A0700AD2CD6 /* A.wav in Resources */,
 				FEB7D87D2512B53A00AD2CD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
